@@ -1,0 +1,1 @@
+CGO_ENABLED=1 CC=gcc GOOS=freebsd GOARCH=amd64 go build -tags static -ldflags "-s -w" cmd/trix2/trix2.go
